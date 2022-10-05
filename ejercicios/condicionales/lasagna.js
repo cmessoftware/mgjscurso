@@ -20,7 +20,8 @@
 const EXPECTED_MINUTES_IN_OVEN = 40
 
 function remainingMinutesInOven(minutos)
-{
+{ 
+    return EXPECTED_MINUTES_IN_OVEN - minutos
 
 }
 
