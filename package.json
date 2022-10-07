@@ -1,16 +1,22 @@
 {
-  "name": "mgjscurso",
+  "name": "cmessoftware",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Challenge para curso de javascript cmessoftware",
+  "main": "checkpoint.js",
+  "directories": {
+    "test": "tests"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --collectCoverage=false --verbose"
+  },
+  "dependencies": {
+    "jest": "^26.6.3"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cmessoftware/mgjscurso.git"
   },
-  "author": "",
+  "author": "cmessoftware",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/cmessoftware/mgjscurso/issues"
