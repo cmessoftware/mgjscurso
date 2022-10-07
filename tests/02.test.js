@@ -1,4 +1,4 @@
-const  {remainingMinutesInOven,preparationTimeInMinutes, totalTimeInMinutes}  = require("../ejercicios/condicionales/02.js");
+const  {remainingMinutesInOven,preparationTimeInMinutes, totalTimeInMinutes,EXPECTED_MINUTES_IN_OVEN}  = require("../ejercicios/condicionales/02.js");
 
 describe('lasagna', function() {
     it('EXPECTED_MINUTES_IN_OVEN debe valer 40', function() {

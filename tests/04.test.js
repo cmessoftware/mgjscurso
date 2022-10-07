@@ -1,6 +1,6 @@
 const  divisor  = require("../ejercicios/condicionales/04.js");
 
-describe('divisores', function() {
+describe('divisor', function() {
     it('a es divisor de b', function() {
         expect(divisor(30,5)).toBe(0);
         expect(divisor(305,5)).toBe(0);
