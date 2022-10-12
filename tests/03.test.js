@@ -1,4 +1,4 @@
-const  calificaciones  = require("../ejercicios/condicionales/03.js");
+import calificaciones from "../ejercicios/condicionales/03.js";
 
 describe('calificaciones', function() {
     it('Calificacion Muy deficiente', function() {
