@@ -5,8 +5,11 @@
 
 function divisor(a,b)
 { 
-    
+    {
+        return(a % b)
+    } 
 
 }
-
+const resultado = divisor(4,2)
+console.log(resultado)
 module.exports = divisor
