@@ -38,6 +38,7 @@ function cargar(numero)
     i++
  }
 
+ 
  const prom =  calcular_promedio(numeros)
  console.log(`Promedio: ${prom}`)
 

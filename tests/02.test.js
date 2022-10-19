@@ -1,4 +1,4 @@
-const  {remainingMinutesInOven,preparationTimeInMinutes, totalTimeInMinutes,EXPECTED_MINUTES_IN_OVEN}  = require("../ejercicios/condicionales/02.js");
+import { remainingMinutesInOven, preparationTimeInMinutes, totalTimeInMinutes, EXPECTED_MINUTES_IN_OVEN } from "../ejercicios/condicionales/02.js";
 
 describe('lasagna', function() {
     it('EXPECTED_MINUTES_IN_OVEN debe valer 40', function() {
@@ -16,9 +16,9 @@ describe('lasagna', function() {
         expect(preparationTimeInMinutes(2)).toBe(4);
         expect(preparationTimeInMinutes(8)).toBe(16);
     });
-    it('Error en totalTimeInMinutes()', function() {
+    it('Error en totalTimeInMinutes()', function() 
         expect(totalTimeInMinutes(1, 5)).toBe(7);
-        expect(totalTimeInMinutes(4, 15)).toBe(23);
+        expect(totalTimeInMinutes(4, 15)).toBe(23); 
         expect(totalTimeInMinutes(1, 35)).toBe(37);
     });
 });
